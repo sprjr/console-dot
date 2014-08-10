@@ -1,0 +1,15 @@
+{
+  "name": "console",
+  "version": "0.0.1",
+  "description": "Lazy debugging console syntax for callbacks & promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "console",
+    "debugging"
+  ],
+  "author": "Stephen Rivas Jr <me@stephenrivasjr.com>",
+  "license": "ISC"
+}
