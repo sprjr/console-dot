@@ -1,12 +1,13 @@
 {
   "author": "Stephen Rivas Jr <me@stephenrivasjr.com> (http://stephenrivasjr.com)",
-  "dependencies" : {},
+  "dependencies": {},
   "devDependencies": {
+    "lodash": "^2.4.1",
     "mocha": "*",
     "should": "4.1.0"
   },
   "description": "Lazy debugging console syntax for callbacks & promises.",
-  "homepage" : "https://github.com/sprjr/console-dot",
+  "homepage": "https://github.com/sprjr/console-dot",
   "keywords": [
     "console",
     "debugging"
@@ -14,7 +15,7 @@
   "license": "ISC",
   "main": "build/index.js",
   "name": "console-dot",
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "http://github.com/npm/npm.git"
   },
@@ -22,5 +23,5 @@
     "test": "mocha -R spec test",
     "build": "grunt"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

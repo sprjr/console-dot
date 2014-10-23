@@ -32,12 +32,16 @@ console = require('console-dot');
 // access to console.callback have been gifted to you
 ```
 
-# Usage (More)
+## Usage (More)
 
 `// TODO`
 
 # Changelog
 Because of [this guy](http://keepachangelog.com/). I'm probably starting out wrong but I am atleast **trying**, [Olivier](https://twitter.com/olivierlacan).
+
+
+## v0.1.2
+Updated test coverage for default behavior, README tweaks, patch version bump.
 
 ## v0.1.0
 Essentially does the above basic implementation modifying `console` to to provide a `callback()` method that returns a curried function with your message. Keystroke savers, etc.
