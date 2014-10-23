@@ -1,22 +1,26 @@
 {
-  "name": "console",
-  "version": "0.0.1",
-  "description": "Lazy debugging console syntax for callbacks & promises.",
-  "main": "build/index.js",
-  "scripts": {
-    "test": "mocha -R spec test",
-    "build": "grunt"
+  "author": "Stephen Rivas Jr <me@stephenrivasjr.com> (http://stephenrivasjr.com)",
+  "dependencies" : {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "4.1.0"
   },
+  "description": "Lazy debugging console syntax for callbacks & promises.",
+  "homepage" : "https://github.com/sprjr/console-dot",
   "keywords": [
     "console",
     "debugging"
   ],
-  "author": "Stephen Rivas Jr <me@stephenrivasjr.com>",
   "license": "ISC",
-  "dependencies" : {
+  "main": "build/index.js",
+  "name": "console-dot",
+  "repository" : {
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "4.1.0"
-  }
+  "scripts": {
+    "test": "mocha -R spec test",
+    "build": "grunt"
+  },
+  "version": "0.1.0"
 }

@@ -15,8 +15,6 @@ describe('ConsoleDot Test Suite', function () {
             done();
         });
 
-        it('should do callbacky console.logs', function (done) {
-            // TODO
-        });
+        it('should do callbacky console.logs');
     });
 });
