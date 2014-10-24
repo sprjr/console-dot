@@ -39,6 +39,8 @@ console = require('console-dot');
 # Changelog
 Because of [this guy](http://keepachangelog.com/). I'm probably starting out wrong but I am atleast **trying**, [Olivier](https://twitter.com/olivierlacan).
 
+## v0.2.0
+Much, much better functional test coverage for default & desired behaviors.
 
 ## v0.1.2
 Updated test coverage for default behavior, README tweaks, patch version bump.

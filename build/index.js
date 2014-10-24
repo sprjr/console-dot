@@ -1,17 +1,23 @@
 "use strict";
 var __moduleName = "lib_index";
 function ConsoleDot() {
+  var delimeter = arguments[0] !== (void 0) ? arguments[0] : 'console.callback --------';
+  var message = arguments[1] !== (void 0) ? arguments[1] : 'callback fired';
+  var showArgsMessage = arguments[2] !== (void 0) ? arguments[2] : 'showing arguments received --------';
   if (!(this instanceof ConsoleDot)) {
-    return new ConsoleDot();
+    return new ConsoleDot(delimeter, message, showArgsMessage);
   }
+  ConsoleDot.prototype.initialize(delimeter, message, showArgsMessage);
 }
 ;
 ConsoleDot.__proto__ = console.__proto__;
-ConsoleDot.__proto__.constants = Object.freeze({
-  DELIMETER: 'console.callback --------',
-  MESSAGE: 'callback fired',
-  SHOW_ARGS_MESSAGE: 'showing arguments received --------'
-});
+ConsoleDot.prototype.initialize = function(delimeter, message, showArgsMessage) {
+  ConsoleDot.__proto__.constants = Object.freeze({
+    DELIMETER: delimeter,
+    MESSAGE: message,
+    SHOW_ARGS_MESSAGE: showArgsMessage
+  });
+};
 ConsoleDot.__proto__.callback = function consoleCallback() {
   var showArgs = arguments[0] !== (void 0) ? arguments[0] : true;
   var message = arguments[1] !== (void 0) ? arguments[1] : this.constants.MESSAGE;
